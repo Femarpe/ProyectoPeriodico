@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 .seccion-destacado {
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +66,7 @@ h3{
 .imagen-noticia-destacada{
   max-width: 80%;
   height: auto;
+  border-radius: 5%;
 }
 
 .imagen-Autor{
