@@ -69,13 +69,18 @@ img {
     border-radius: 3%;
 }
 
-.publicacion-popular {
+.imagen-publicacion-popular {
     width: 60%;
     height: auto;
 }
 
 .subscripcion {
     background-color: #f8f9fa;
+}
+
+.most-popular{
+        font-weight: bold;
+        padding-top: 2em;
 }
 
 .contenido-subscripcion {
@@ -186,5 +191,15 @@ h1 {
  
     .noticias {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .imagen-publicacion-popular {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-container-trending {
+        display: block;
+        gap: 3em;
     }
 }
